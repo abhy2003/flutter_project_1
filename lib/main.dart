@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_project_1/view/26-07-2024/checkbox.dart';
+import 'package:flutter_project_1/view/26-07-2024/task_checkbox.dart';
 import 'package:flutter_project_1/view/calculator%20assignment/calculator.dart';
 import 'package:flutter_project_1/view/test/register.dart';
 import 'package:flutter_project_1/view/test/signin_signup.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(360, 690),
       builder: (context, child) {
         return MaterialApp(
-          home: Sample_check(),
+          home: TaskCheckbox(),
           // debugShowCheckedModeBanner: false,
           // initialRoute: 'login', // Change to 'register' if you want the register screen to be the initial route
           // routes: {
