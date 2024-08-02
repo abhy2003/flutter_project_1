@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project_1/view/02-08-2024/sample_gridview.dart';
+import 'package:flutter_project_1/view/02-08-2024/toast_sample.dart';
 import 'package:flutter_project_1/view/1-08-2024/chat_screen.dart';
 import 'package:flutter_project_1/view/1-08-2024/task_tabbar.dart';
 import 'package:flutter_project_1/view/1-08-2024/whatsapp_tab.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WhatsApp_tab(),
+      home: ToastSample(),
     );
   }
 }
